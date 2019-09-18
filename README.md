@@ -1,5 +1,8 @@
-
-CODE
+## Biz Uncertainty
+### Reginald Edwards
+### 2018
+Measuring aggregate business uncertainty from firms' filings (10-K's.)
+### CODE
 * uncertainty-summary-statistics.R: Plots and descriptive stats for uncertainty measures
 	- 'report/figures/bunc-by-quarter.jpeg'
 	- 
