@@ -1,0 +1,32 @@
+OUTLINE
+I.  Introduction
+    A.  Motivation: what is the broader context and import of your question?
+    B.  Research question? 
+    C.  Theory
+    D.  Results
+    E.  Contribution
+II.  Motivation and Background: Establish tension
+	A. A Quasi-Natural Experiment: SOP 97-2 and EITF 09-3
+	B. Financial Statement Comparability: Describe how you measure comparability
+	C. Institutional Investor Classification
+		* Decribe how you measure and classify institutional investors
+		* state hypothesis
+III.  Data Sources, Variable Definitions, and Descriptive Statistics
+    A. Where do the data come from?
+    B. How is comparability measure constructed?  
+	C. Define and motivate control variables
+	D. Summary statistics
+        i.  Do the values match other studies?
+        ii.  What is the correlation structure of the data?
+    C.  plots of comparability over time; by industry
+    D.  determinants of comparability (how do these relate to the construct?)
+IV. Empirical Methodology and Results
+	A. Baseline OLS results
+	B. Identification based on DiD
+		i. validate premise (comparability and acct rule changes)
+		ii. Main DiD analysis
+	C. Robustness
+VII.  Summary and Conclusions
+    A.  What are the threats to validity? What are the threats to a causal interpretation?
+    B.  What do the results as a whole tell us? Why is it interesting?
+    C.  What are directions for future research?

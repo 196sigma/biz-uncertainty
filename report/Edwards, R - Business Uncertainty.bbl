@@ -1,0 +1,73 @@
+
+
+% Bibstyle aea.bst version 2009.05.20
+
+\begin{thebibliography}{xx}
+
+\harvarditem[Almeida \harvardand\ Campello]{Heitor Almeida \harvardand\ Murillo
+  Campello}{2007}{almeidacampello2007}
+{\bf Almeida, Heitor, and Murillo Campello.} 2007. ``Financial Constraints,
+  Asset Tangibility, And Corporate Investment.'' {\em Review of Financial
+  Studies}, 20(5):~1429--1460.
+
+\harvarditem[Baker, Bloom \harvardand\ Davis]{Scott~R. Baker, Nicholas Bloom
+  \harvardand\ Steven~J. Davis}{2016}{bakeretal2016}
+{\bf Baker, Scott~R., Nicholas Bloom, and Steven~J. Davis.} 2016. ``Measuring
+  Economic Policy Uncertainty*.'' {\em The Quarterly Journal of Economics},
+  131(4):~1593--1636.
+
+\harvarditem[Bodnaruk, Loughran \harvardand\ McDonald]{Andriy Bodnaruk, Tim
+  Loughran \harvardand\ Bill McDonald}{2015}{bodnaruketal2015}
+{\bf Bodnaruk, Andriy, Tim Loughran, and Bill McDonald.} 2015. ``Using 10-K
+  Text to Gauge Financial Constraints.'' {\em Journal of Financial and
+  Quantitative Analysis}, 50(4):~623–646.
+
+\harvarditem[Bonaime, Gulen \harvardand\ Ion]{Alice Bonaime, Huseyin Gulen
+  \harvardand\ Mihai Ion}{2017}{bonaimeetal2017}
+{\bf Bonaime, Alice, Huseyin Gulen, and Mihai Ion.} 2017. ``Does Policy
+  Uncertainty Affect Mergers and Acquisitions?'' {\em Working Paper}.
+
+\harvarditem[Brown \harvardand\ Tucker]{Stephen~V. Brown \harvardand\
+  Jennifer~Wu Tucker}{2011}{browntucker2011}
+{\bf Brown, Stephen~V., and Jennifer~Wu Tucker.} 2011. ``Large-Sample Evidence
+  on Firms’ Year-over-Year MD\&A Modifications.'' {\em Journal of Accounting
+  Research}, 49(2):~309--346.
+
+\harvarditem[Buehlmaier \harvardand\ Whited]{Matthias M.~M. Buehlmaier
+  \harvardand\ Toni~M. Whited}{2017}{buehlmaierwhited2017}
+{\bf Buehlmaier, Matthias M.~M., and Toni~M. Whited.} 2017. ``Are Financial
+  Constraints Priced? Evidence from Textual Analysis.'' {\em Working Paper}.
+
+\harvarditem[Cao, Duan \harvardand\ Uysal]{Wenbin Cao, Xiaoman Duan
+  \harvardand\ Vahp~B. Uysal}{2013}{caoetal2013}
+{\bf Cao, Wenbin, Xiaoman Duan, and Vahp~B. Uysal.} 2013. ``Does Political
+  Uncertainty Affect Capital Structure Choices?'' {\em Working Paper}.
+
+\harvarditem[Chung \harvardand\ Pruitt]{KH Chung \harvardand\ SW
+  Pruitt}{{1994}}{chungpruitt1994}
+{\bf Chung, KH, and SW Pruitt.} {1994}. ``{A Simple Approximation of
+  Tobins-Q}.'' {\em {Financial Management}}, {23}({3}):~{70--74}.
+
+\harvarditem[Colak, Durnev \harvardand\ Qian]{Gonul Colak, Art Durnev
+  \harvardand\ Yiming Qian}{Forthcoming}{colaketal}
+{\bf Colak, Gonul, Art Durnev, and Yiming Qian.} Forthcoming. ``Political
+  Uncertainty and IPO Activity: Evidence from U.S. Gubernatorial Elections.''
+  {\em Journal of Financial and Quantitative Analysis}.
+
+\harvarditem[Granger]{C.~W.~J. Granger}{1969}{granger1969}
+{\bf Granger, C. W.~J.} 1969. ``Investigating Causal Relations by Econometric
+  Models and Cross-spectral Methods.'' {\em Econometrica}, 37(3):~424--438.
+
+\harvarditem[Hoberg \harvardand\ Maksimovic]{Gerard Hoberg \harvardand\
+  Vojislav Maksimovic}{2015}{hobergmaksimovic2015}
+{\bf Hoberg, Gerard, and Vojislav Maksimovic.} 2015. ``Redefining Financial
+  Constraints: A Text-Based Analysis.'' {\em The Review of Financial Studies},
+  28(5):~1312--1352.
+
+\harvarditem[Kim, Pandit \harvardand\ Wasley]{Kyonghee Kim, Shailendra~(Shail)
+  Pandit \harvardand\ Charles~E. Wasley}{2016}{kimetal2016}
+{\bf Kim, Kyonghee, Shailendra~(Shail) Pandit, and Charles~E. Wasley.} 2016.
+  ``Macroeconomic Uncertainty and Management Earnings Forecasts.'' {\em
+  Accounting Horizons}, 30(1):~157--172.
+
+\end{thebibliography}

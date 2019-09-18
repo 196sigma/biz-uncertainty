@@ -1,0 +1,166 @@
+\appendix 
+\section*{Appendix I: Tables and Figures}
+\input{tables/summary-stats2.tex} 
+\newpage
+\input{tables/correlation-matrix2.tex} 
+\newpage
+\input{tables/punc-xs-ols2}
+\newpage
+% Aggregate OLS tests
+\input{tables/ols-forecast-roa2}
+\newpage
+\input{tables/ols-forecast-rd2}
+\newpage
+\input{tables/ols-forecast-invest2}
+\newpage
+%% XS OLS Tests
+\input{tables/bunc-xs-ols-tests2}
+\newpage
+\input{tables/bunc-xs-ols-forecasts2}
+\newpage
+\begin{figure}[H] 
+\centering
+\includegraphics[width=6in, height=3in]{figures/bunc-by-quarter}
+\includegraphics[width=6in, height=3in]{figures/bunc-by-mve}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize (Top panel) Time series trends of uncertainty} \label{bunc-figures}
+\end{figure} 
+\newpage
+% TS and XS Total Assets
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-at-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-at-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by total assets quintile.} \label{bunc-at}
+\end{figure} 
+% TS and XS Market-to-Book
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-bm-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-bm-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by book-to-market quintile.} \label{bunc-bm}
+\end{figure} 
+\newpage
+% TS and XS Tangibility
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-tang-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-tang-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by asset tangibility quintile.} \label{bunc-tang}
+\end{figure} 
+% TS and XS Forward PE
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-pefwd-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-pefwd-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by forward PE quintile.} \label{bunc-pefwd}
+\end{figure} 
+\newpage
+% TS and XS Price
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-price-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-price-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by stock price quintile.} \label{bunc-price}
+\end{figure} 
+% TS and XS Returns
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-bhr-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-bhr-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by stock returns quintile.} \label{bunc-bhr}
+\end{figure} 
+\newpage
+% TS and XS Turnover
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-turn-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-turn-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by stock turnover quintile.} \label{bunc-turn}
+\end{figure} 
+\newpage
+% TS and XS NANALYSTS
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-nanalysts-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-nanalysts-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by analyst following quintile.} \label{bunc-nanalysts}
+\end{figure} 
+% TS and XS Analyst Dispersion
+\begin{figure}[H] 
+\centering
+\includegraphics[width=3in, height=3in]{figures/punc-by-dispersion-ts}
+\includegraphics[width=3in, height=3in]{figures/punc-by-dispersion-xs}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends (left) and cross-sectional distribution (right) of uncertainty by analyst forecast dispersion quintile.} \label{bunc-disp}
+\end{figure} 
+\newpage
+%% Time series plots of aggregates
+%%ROA
+\begin{figure}[H] 
+\centering
+\includegraphics[width=5in, height=2.66in]{figures/roa-ts}
+\includegraphics[width=5in, height=2.66in]{figures/rd-ts}
+\includegraphics[width=5in, height=2.66in]{figures/invest-ts}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Time series trends of Earnings, R\&D, and Investment} \label{ts-plots}
+\end{figure} 
+ \newpage 
+
+%%ACF and PACF Plots: ROA
+\begin{figure}[H] 
+\centering
+\includegraphics[width=5in, height=6in]{figures/roa-acf}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Earnings (ROA) sample autocorrelation and partial autocorellation functions.} \label{roa-acf}
+\end{figure} 
+ \newpage 
+
+%%ACF and PACF Plots: Investment
+\begin{figure}[H] 
+\centering
+\includegraphics[width=5in, height=6in]{figures/invest-acf}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Investment sample autocorrelation and partial autocorellation functions.} \label{invest-acf}
+\end{figure} 
+ \newpage 
+
+%%ACF and PACF Plots: RD
+\begin{figure}[H] 
+\centering
+\includegraphics[width=5in, height=6in]{figures/rdsales-acf}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize R\&D sample autocorrelation and partial autocorellation functions.} \label{rd-acf}
+\end{figure} 
+ \newpage
+
+%% VAR
+\begin{figure}[H] 
+\centering
+\includegraphics[width=6in, height=6in]{figures/nunc-irf-2}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Impulse-Response Functions for $NUM\_UNC$.} \label{nunc-irf-2}
+\end{figure} 
+ \newpage
+\begin{figure}[H] 
+\centering
+\includegraphics[width=6in, height=6in]{figures/punc-irf-2}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Impulse-Response Functions for $PCT\_UNC$.} \label{punc-irf-2}
+\end{figure} 
+ \newpage
+%% CCF Plots
+\begin{figure}[H] 
+\centering
+\includegraphics[width=6in, height=8in]{figures/ccf}
+\captionsetup{justification=centering, width=.95\textwidth} 
+\caption{\footnotesize Sample Cross-Correlation Plots} \label{ccf-plots}
+\end{figure} 

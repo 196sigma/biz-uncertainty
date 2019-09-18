@@ -1,0 +1,78 @@
+\centering 
+\footnotesize 
+\begin{longtable}{@{\extracolsep{5pt}}lD{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} } 
+\caption{Active and Passive Institutional Ownership, Levels\\
+\footnotesize
+This table reports OLS results of regressing $PCT\text{-}ACTIVE$ ($NUM\text{-}ACTIVE$) on $COMP$ and control variables.\\
+$COMP$ denotes average the accounting comparability for each firm in a specific year. 
+Data span all non-financial and non-utility stocks listed on the NYSE, NASDAQ, or American Stock Exchange (AMEX) over the years 1994 to 2015 with December fiscal-year-ends. 
+$PCT\text{-}ACTIVE$, is the ratio of shares held by ``active'' institutions to that of ``passive'' institutions. 
+$NUM\text{-}ACTIVE$, is the ratio of the number of``active'' institutions to that of ``passive'' institutions. 
+$AGE$ is the number of years the firm appears in Compustat.
+$TURNOVER$ is the ratio of monthly trading volume to number of shares outstanding.
+$RETURN$ is the stock return over the preceeding year.
+$PRICE$ is the average daily stock price over the preceeding year.
+$ASSETS$ is the natural logarithm of the book value of assets.
+$MVE$ is the natural logarithm of market capitalization.
+$BASPREAD$ is the average bid-ask spread.
+$DIV$ is the dividend yield .
+$LEVERAGE$ is the ratio of the book value of total debt to assets.
+Tobin's $q$ ($Q$), calculated as in \cite{chungpruitt1994}.
+Return on assets  ($ROA$)--the ratio of net income to the book value of total assets.
+$TANG$ is the level of asset tangibility, calculated as in \cite{almeidacampello2007}. 
+$NANALYSTS$ is the natural logarithm of the number of analysts following the firm.																				
+$PE$ is the forward price-to-earnings ratio, computed as the current price divided by the 1-year-ahead consensus analyst forecast for the firm.
+All variables are winsorized at the 1\% and 99\% level. }\label{levels} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+& \multicolumn{2}{c}{$PCT\text{-}ACTIVE_{t+1}$} & \multicolumn{2}{c}{$NUM\text{-}ACTIVE_{t+1}$} \\ 
+[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)}\\ 
+\hline \\[-1.8ex] 
+  CONSTANT & 0.2325^{***} & 0.2011^{***} & 0.0782^{***} & 0.0397^{***} \\ 
+  & (0.0114) & (0.0171) & (0.0110) & (0.0147) \\ 
+ PCT-ACTIVE & 0.7563^{***} & 0.7806^{***} &  &  \\ 
+  & (0.0128) & (0.0155) &  &  \\ 
+  NUM-ACTIVE &  &  & 0.9366^{***} & 0.9015^{***} \\ 
+  &  &  & (0.0136) & (0.0178) \\ 
+  COMP & -0.005^{***} & -0.0073^{***} & -0.012^{***} & -0.007^{***} \\ 
+  & (0.0006) & (0.0006) & (0.0006) & (0.0006) \\ 
+  MVE &  & -0.0062 &  & -0.0041 \\ 
+  &  & (0.0047) &  & (0.0042) \\ 
+  PRICE &  & 0.0005^{***} &  & 0.0002^{**} \\ 
+  &  & (0.0001) &  & (0.0001) \\ 
+  TURNOVER &  & 0.0026^{*} &  & -0.0008 \\ 
+  &  & (0.0013) &  & (0.0012) \\ 
+  AGE &  & 0.0003^{**} &  & 0.0003^{**} \\ 
+  &  & (0.0001) &  & (0.0001) \\ 
+  BASPREAD &  & 0.1134 &  & -0.1213 \\ 
+  &  & (0.1510) &  & (0.1358) \\ 
+  SP500 &  & -0.0153^{**} &  & -0.0134^{**} \\ 
+  &  & (0.0060) &  & (0.0054) \\ 
+  DIV &  & 0.0008^{**} &  & -0.0004 \\ 
+  &  & (0.0003) &  & (0.0003) \\ 
+  LEVERAGE &  & -0.0397^{***} &  & -0.0294^{***} \\ 
+  &  & (0.0120) &  & (0.0108) \\ 
+  Q &  & -0.0011 &  & 0.0044^{**} \\ 
+  &  & (0.0024) &  & (0.0022) \\ 
+  RETURN &  & 0.0121^{***} &  & 0.0205^{***} \\ 
+  &  & (0.0035) &  & (0.0031) \\ 
+  ROA &  & -0.0104 &  & -0.0311^{**} \\ 
+  &  & (0.0170) &  & (0.0152) \\ 
+  ASSETS &  & 0.0062 &  & 0.0132^{***} \\ 
+  &  & (0.0046) &  & (0.0041) \\ 
+  NANALYSTS &  & 0.0030 &  & 0.0018 \\ 
+  &  & (0.0038) &  & (0.0034) \\ 
+  PE &  & -0.0001^{***} &  & -0.0001 \\ 
+  &  & (0.00004) &  & (0.00004) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{32,940} & \multicolumn{1}{c}{32,387} & \multicolumn{1}{c}{32,940} & \multicolumn{1}{c}{32,387} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.5462} & \multicolumn{1}{c}{0.5637} & \multicolumn{1}{c}{0.6187} & \multicolumn{1}{c}{0.6484} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.5459} & \multicolumn{1}{c}{0.5607} & \multicolumn{1}{c}{0.6185} & \multicolumn{1}{c}{0.6460} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{4}{r}{Year and firm fixed effects included.} \\ 
+ & \multicolumn{4}{r}{Standard errors are clustered at the firm level.} \\ 
+\end{longtable}

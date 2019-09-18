@@ -1,0 +1,46 @@
+\centering
+\footnotesize
+\begin{longtable}{@{\extracolsep{5pt}}lD{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} } 
+\caption{This table reports OLS results of forecasting one-quarter-ahead aggregate investment ($INVEST$).\\
+Data span all non-financial stocks listed on the NYSE, NASDAQ, or American Stock Exchange (AMEX) over the years 1994 to 2017. 
+Return on assets  ($ROA$)--the ratio of net income to the book value of total assets.
+$TURNOVER$ is the ratio of monthly trading volume to number of shares outstanding.
+$RETURN$ is the stock return over the preceeding year.
+$ASSETS$ is the natural logarithm of the book value of assets.
+$MVE$ is the natural logarithm of market capitalization.
+$DIV$ is the dividend yield .
+$LEVERAGE$ is the ratio of the book value of total debt to assets.
+$TANG$ is the level of asset tangibility, calculated as in \cite{almeidacampello2007}. 
+$PE$ is the price-to-earnings ratio, computed as the current price divided by net income.
+All variables are winsorized at the 1\% and 99\% level. }
+\label{ols-forecast-invest} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)}\\ 
+\hline \\[-1.8ex] 
+ Const. & 0.1271^{**} & 0.1209^{**} & 0.1174^{**} & 0.1096^{*} \\ 
+  & (0.0548) & (0.0573) & (0.0575) & (0.0604) \\ 
+  PCT\_UNC & -0.2864 & -0.3942 &  &  \\ 
+  & (0.5900) & (0.6519) &  &  \\ 
+  BBD\_EPU &  & 0.00001 &  & 0.00001 \\ 
+  &  & (0.00002) &  & (0.00002) \\ 
+  NUM\_UNC &  &  & -0.00002 & -0.00003 \\ 
+  &  &  & (0.00003) & (0.00004) \\ 
+  INVEST & 0.3805^{***} & 0.3786^{***} & 0.3484^{**} & 0.3392^{**} \\ 
+  & (0.1273) & (0.1283) & (0.1357) & (0.1381) \\ 
+  ROA & -0.0500 & -0.0285 & 0.0023 & 0.0392 \\ 
+  & (0.2355) & (0.2431) & (0.2438) & (0.2585) \\ 
+  RETURN & 0.0076^{**} & 0.0080^{**} & 0.0072^{*} & 0.0075^{*} \\ 
+  & (0.0037) & (0.0038) & (0.0038) & (0.0039) \\ 
+  MVE & -0.0070^{*} & -0.0066 & -0.0065 & -0.0061 \\ 
+  & (0.0039) & (0.0040) & (0.0040) & (0.0041) \\ 
+  LEVERAGE & -0.0116 & -0.0122 & -0.0120 & -0.0124 \\ 
+  & (0.0589) & (0.0594) & (0.0587) & (0.0591) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{67} & \multicolumn{1}{c}{67} & \multicolumn{1}{c}{67} & \multicolumn{1}{c}{67} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.4755} & \multicolumn{1}{c}{0.4769} & \multicolumn{1}{c}{0.4781} & \multicolumn{1}{c}{0.4799} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.4230} & \multicolumn{1}{c}{0.4149} & \multicolumn{1}{c}{0.4259} & \multicolumn{1}{c}{0.4182} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{longtable} 

@@ -1,0 +1,44 @@
+\begin{table}[H]																				
+\tiny																				
+  \centering																				
+\captionsetup{width=.75\textwidth}																				
+ \caption{\textbf{Descriptive Statistics}}  																				
+ \label{summary-stats}																				
+\caption*{\tiny This table presents descriptive statistics on comparability, institutional ownership, and other firm characteristics (aggregated by industry.) $COMP$ denotes the aggregate accounting comparability level for each industry in a specific year. Data span all stocks listed on the NYSE, NASDAQ, or American Stock Exchange (AMEX) and all industries over the years 1980 to 2015. Institutional ownership, $IO$, for each firm in each year as the ratio of shares held by institutions to the total shares outstanding. All variables are aggregated at the industry (two-digit SIC) level. December fiscal-year-end firms. $AGE$ is the number of years the firm appears in Compustat.																				
+$TURNOVER$ is the ratio of monthly trading volume to number of shares outstanding.																				
+$RETURN$ is the stock return over the preceeding year.																				
+$PRICE$ is the average daily stock price over the preceeding year.																				
+$ASSETS$ is the natural logarithm of the book value of assets.																				
+$MVE$ is the natural logarithm of market capitalization.																				
+$ANALYSTS$ is number of analysts following the firm.																				
+$PE$ is the forward price-to-earnings ratio, computed as the current price divided by the 1-year-ahead consensus analyst forecast for the firm.																				
+$BASPREAD$ is the average bid-ask spread.																				
+$SP500$ an indicator variable for whether or not the firm is in the S\&P 500.																				
+$DIV$ is the dividend yield .																				
+The ratio of the book value of total debt to assets ($LEVERAGE$.)																				
+Tobin's $q$ ($Q$), calculated as in \cite{chungpruitt1994}.																				
+Return on assets  ($ROA$)--the ratio of net income to the book value of total assets.																				
+The level of asset tangibility ($TANG$), calculated as in \cite{almeidacampello2007}. All variables are winsorized at the 1\% and 99\% level. Final sample consists of 41,159 firm-year observations aggregated into 1,375 industry-year observations.}																				
+    \begin{tabular}{rrrrrrrrrr}																				
+    \toprule																				
+          &       &       & \multicolumn{7}{c}{Percentile} \\																				
+    \cmidrule{4-10}																				
+    \multicolumn{1}{c}{Variable} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Std Dev} & \multicolumn{1}{c}{1st} & \multicolumn{1}{c}{5th} & \multicolumn{1}{c}{25th} & \multicolumn{1}{c}{50th} & \multicolumn{1}{c}{75th} & \multicolumn{1}{c}{95th} & \multicolumn{1}{c}{99th} \\ \hline																				
+\multicolumn{1}{l}	{AGE}	&	15.744	&	13.452	&	0.999	&	2.001	&	5.999	&	11.001	&	21.999	&	45.254	&	58.001	\\
+\multicolumn{1}{l}	{AT}	&	8,334.100	&	73,577.254	&	5.381	&	15.397	&	96.843	&	455.665	&	2,235.352	&	21,873.966	&	121,274.220	\\
+\multicolumn{1}{l}	{BASPREAD}	&	0.014	&	0.045	&	0.000	&	0.000	&	0.000	&	0.000	&	0.000	&	0.088	&	0.200	\\
+\multicolumn{1}{l}	{BHR}	&	0.198	&	0.817	&	-0.815	&	-0.601	&	-0.176	&	0.093	&	0.380	&	1.250	&	3.042	\\
+\multicolumn{1}{l}	{DIV}	&	2.427	&	15.400	&	0.000	&	0.000	&	0.000	&	0.000	&	0.684	&	8.624	&	44.298	\\
+\multicolumn{1}{l}	{LEVERAGE}	&	0.221	&	0.199	&	0.000	&	0.000	&	0.045	&	0.182	&	0.349	&	0.604	&	0.785	\\
+\multicolumn{1}{l}	{MVE}	&	3,307.920	&	15,054.958	&	3.427	&	10.499	&	65.022	&	284.206	&	1,284.152	&	12,719.206	&	61,645.644	\\
+\multicolumn{1}{l}	{ANALYSTS}	&	5.312	&	6.845	&	0.000	&	0.000	&	0.000	&	3.000	&	7.000	&	20.000	&	30.000	\\
+\multicolumn{1}{l}	{PE}	&	30.746	&	207.525	&	-139.094	&	-15.848	&	8.328	&	16.221	&	31.366	&	116.386	&	405.000	\\
+\multicolumn{1}{l}	{PRICE}	&	23.358	&	57.695	&	0.829	&	1.969	&	7.548	&	16.240	&	29.033	&	59.986	&	106.049	\\
+\multicolumn{1}{l}	{Q}	&	1.504	&	3.056	&	0.103	&	0.191	&	0.623	&	0.974	&	1.598	&	4.250	&	8.951	\\
+\multicolumn{1}{l}	{ROA}	&	-0.001	&	0.344	&	-0.812	&	-0.298	&	-0.003	&	0.023	&	0.061	&	0.146	&	0.267	\\
+\multicolumn{1}{l}	{SP500}	&	0.112	&	0.316	&	0.000	&	0.000	&	0.000	&	0.000	&	0.000	&	1.000	&	1.000	\\
+\multicolumn{1}{l}	{TANG}	&	0.518	&	0.167	&	0.061	&	0.214	&	0.434	&	0.530	&	0.606	&	0.807	&	0.927	\\
+\multicolumn{1}{l}	{TURNOVER}	&	1.322	&	9.723	&	0.023	&	0.079	&	0.304	&	0.684	&	1.429	&	3.850	&	8.634	\\
+    \bottomrule																				
+    \end{tabular}																				
+\end{table}																				

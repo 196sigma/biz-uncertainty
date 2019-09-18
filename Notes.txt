@@ -1,0 +1,148 @@
+To Do
+* analyze each FF48 industry separately; use in forecasting
+* randomly select 100 10-Ks/Qs and read them to determine where uncertainty is usually discussed. Use this to motivate which section(s) of the filings to extract. Get HB to help :)
+* see McGuckin and Stiroh (2002) paper on aggregating economic data
+* get some Graham/Graham and Dodd quotes
+* integrate more methodological info into paper. Describe how and why you measure the outcome variables the way you do.
+* add LOSS
+* disaggregate time trends of uncertainty terms
+* think about how to summarize data by industry
+* censored regression?
+* scale RD by assets
+* Data collection: funnel analysis, quarterly filings, whole 10-K/Q
+
+
+TEXT PREPROCESSING
+1. number of CIKs in COMPUSTAT
+2. COMPUSTAT CIKs matched with CRSP PERMNO
+3. COMPUSTAT-CRSP CIKs with 10-K on EDGAR
+4. 10-Ks that are not essentially blank (too small)
+5. 10-Ks with extracted MD&A's
+
+Paper Structure
+* Focus a good chunk (30-50%) of the paper on descriptives of your uncertainty metric. Breakdown time series trends, cross-sectional differences, industry structure, by-term descriptives.
+* whats the process of generating MD&A's by managers/firms?
+* what physical events in the real world generat business uncertainty (besides govt policy uncertainty)?
+* based on prior lit, what might uncertainty be used to explain (eg investment, M&A, debt...)
+* validate measure 
+	- prior uncertainty measures
+	- firm-level manager range forecasts
+	- independent of length, tone, etc.
+* In first pass, use entire time-series to explain (in-sample). Then use training sample to generate weights and model then do out-of-sample prediction.
+* Use VAR framework
+* Macroeconomic aggregates (GDP, inflation, employment) as a sub-section
+* aggregate tests
+* firm-level tests
+* asset pricing tests: pack in a condensend, standard "anomalies" test at the end for completeness. 
+
+OUTLINE
+I. Introduction
+	* Why is uncertainty important? Based on prior lit, what might uncertainty be used to explain (eg investment, M&A, debt...)
+	* Why use 10-K and 10-Q MDA\&A's? whats the process of generating MD\&A's by managers/firms? (Review the lit)
+	* Overview of forecasting procedure and results
+	* Lit review
+II. Measuring Uncertainty
+	* how is uncertainty measured? What physical events in the real world generate business uncertainty (besides govt policy uncertainty)?
+	* How is your index constructed?
+	Since the length of filings has increased steadily over time, I construct my index by normalizing by filing length. To do so, I count the number of words (tokens) in the MD\&A and divide the number of uncertainty terms by this. I equal-weight (or value-weight) the fraction of uncertainty terms and add them together.
+	* What are its empirical properties
+	* validate measure 
+		- prior uncertainty measures: market volatility, Baker et al (2016) EPU
+		- firm-level manager range forecasts
+		- independent of length, tone, etc.
+III. Measuring Accounting Aggregates
+	* Which accounting aggregates do you use?
+	* How do you contruct these aggregates?
+	* What are their empirical properties?
+		- summary stats
+		- time series structure
+IV. Results
+	A. OLS. The goal of this section is to measure how much BUNC contributes to explaining each agg measure
+		1. Investment.
+			* Controls: changes in market volatility, interest rates, default spread on corporate bonds, profits, returns
+			* Fully interact BUNC with controls
+	B. VAR Estimation and Forecasting. The goal of this section is to predict future agg measures using BUNC and compare it to a baseline without BUNC.
+		* What is VAR and why is it appropriate here?
+		* Estimation choices
+		* Results
+V. Macroeconomic aggregates
+VI. Asset Pricing Tests (Firm-level/cross-sectional)
+VII. Conclusions and Further Work
+
+Uncertainty words
+* uncertain
+* challenges
+* risks
+* decreased
+* price pressure
+* reduced
+* antitrust
+* taxes
+* regulation
+* financing
+* disruptions
+* terrorism
+* concern
+
+Index Construction Frequency
+* Use 10-K's and 10-Q's
+* Use MDA section and whole filing
+* monthly
+* quarterly
+* annual
+* merge quarterly (10-Q) and annual (10-K) extracted term freqs
+
+Outcome variables
+* agg earnings
+* investment (How to measure?): CapEx
+* rd expense
+* MA
+
+Aggregate Controls
+* Investment (Arif and Lee, 2014)
+	- lagged investment
+	- lagged profitability (roa)
+	- lagged btm
+	- contemporaneous and lagged stock market returns
+	- lagged dividends
+	- term structure of interest rates
+	- default rate (Moody's BAA - AAA yield)
+	- T-bill rate
+* Earnings
+	- lagged earnings
+	- lagged investment
+	- lagged btm
+	- contemporaneous and lagged stock market returns
+	- lagged dividends
+	
+Firm-level Controls
+* Investment
+	- lagged investment
+	- lagged profitability (roa)
+	- lagged btm
+	- contemporaneous and lagged stock market returns
+	- lagged dividends
+	- SP indicator
+	- price
+	- age
+	- assets
+	- baspread
+	- leverage
+	- pe
+	- tangibility
+	- turnover
+* Earnings
+	- lagged investment
+	- lagged profitability (roa)
+	- lagged btm
+	- contemporaneous and lagged stock market returns
+	- lagged dividends
+	- SP indicator
+	- price
+	- age
+	- assets
+	- baspread
+	- leverage
+	- pe
+	- tangibility
+	- turnover

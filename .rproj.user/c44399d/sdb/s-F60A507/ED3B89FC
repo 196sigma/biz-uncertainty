@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "rm(list=ls())\nlibrary(sas7bdat)\nlibrary(ggplot2)\naggs.q <- read.sas7bdat(\"data/accaggq.sas7bdat\")\nnames(aggs.q) <- tolower(names(aggs.q))\nsummary(aggs.q)\no <- which(aggs.q$datafqtr == '')\nif(length(o)>0) aggs.q <- aggs.q[-o,]\n\nplot(x=aggs.q$datafqtr, y=aggs.q$invest, type='l')\nplot(aggs.q$invest, type='l')\n\n## Summary Statistics\ntheme_gray()\ny <- rnorm(nrow(aggs.q))\nx <- 1:nrow(aggs.q)\nX <- data.frame(x1 = x, x2 = y)\nggplot(data = X, aes(x=x1, y=x2)) + geom_line() + theme_grey()\nggplot(BOD, aes(x=Time, y=demand)) + geom_line()\n## Plots\n## time series plot of quarterly earnings (roa)\naggs.q$x <- 1:nrow(aggs.q)\naggs.q$Time <- factor(aggs.q$datafqtr)\nb <- paste(seq(1991,2017,2),'Q1', sep='')\n\nggplot(data = aggs.q, aes(x=datafqtr, y=roa, group=1)) + geom_line() + scale_x_discrete(breaks = b,  labels = b)\n\n## time series plot of quarterly rd\n## time series plot of quarterly investment\n\n## histograms of annual earnings 1995 and 2015\n## histograms of annual rd 1995 and 2015\n## histograms of annual investment 1995 and 2015",
+    "created" : 1507821005289.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3437473717",
+    "id" : "ED3B89FC",
+    "lastKnownWriteTime" : 1507831589,
+    "last_content_update" : 1507831589522,
+    "path" : "~/Dropbox/Research/biz-uncertainty/code/accounting-aggregates.R",
+    "project_path" : "code/accounting-aggregates.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

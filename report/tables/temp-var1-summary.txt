@@ -1,0 +1,72 @@
+temp-VAR1
+
+VAR Estimation Results:
+========================= 
+Endogenous variables: starts, comps 
+Deterministic variables: const 
+Sample size: 338 
+Log Likelihood: 673.885 
+Roots of the characteristic polynomial:
+0.9585 0.9585 0.6156 0.5913 0.5913 0.3472 0.3472 0.08024
+Call:
+VAR(y = X, p = 4, type = "const")
+
+
+Estimation results for equation starts: 
+======================================= 
+starts = starts.l1 + comps.l1 + starts.l2 + comps.l2 + starts.l3 + comps.l3 + starts.l4 + comps.l4 + const 
+
+           Estimate Std. Error t value Pr(>|t|)    
+starts.l1  0.655743   0.056076  11.694  < 2e-16 ***
+comps.l1   0.007276   0.091906   0.079 0.936948    
+starts.l2  0.235371   0.066386   3.546 0.000449 ***
+comps.l2  -0.118989   0.092478  -1.287 0.199116    
+starts.l3  0.138673   0.066452   2.087 0.037675 *  
+comps.l3  -0.021141   0.089701  -0.236 0.813828    
+starts.l4  0.011877   0.060330   0.197 0.844053    
+comps.l4   0.002711   0.083819   0.032 0.974218    
+const      0.131220   0.036749   3.571 0.000409 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.1189 on 329 degrees of freedom
+Multiple R-Squared: 0.8959,	Adjusted R-squared: 0.8934 
+F-statistic: 353.9 on 8 and 329 DF,  p-value: < 2.2e-16 
+
+
+Estimation results for equation comps: 
+====================================== 
+comps = starts.l1 + comps.l1 + starts.l2 + comps.l2 + starts.l3 + comps.l3 + starts.l4 + comps.l4 + const 
+
+          Estimate Std. Error t value Pr(>|t|)    
+starts.l1  0.06802    0.03310   2.055 0.040676 *  
+comps.l1   0.20486    0.05425   3.776 0.000189 ***
+starts.l2  0.05966    0.03919   1.523 0.128817    
+comps.l2   0.21775    0.05459   3.989 8.18e-05 ***
+starts.l3  0.03358    0.03922   0.856 0.392592    
+comps.l3   0.10504    0.05295   1.984 0.048114 *  
+starts.l4  0.09309    0.03561   2.614 0.009356 ** 
+comps.l4   0.18231    0.04948   3.685 0.000267 ***
+const      0.04524    0.02169   2.086 0.037793 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.07016 on 329 degrees of freedom
+Multiple R-Squared: 0.9411,	Adjusted R-squared: 0.9396 
+F-statistic: 656.6 on 8 and 329 DF,  p-value: < 2.2e-16 
+
+
+
+Covariance matrix of residuals:
+         starts    comps
+starts 0.014129 0.001564
+comps  0.001564 0.004923
+
+Correlation matrix of residuals:
+       starts  comps
+starts 1.0000 0.1875
+comps  0.1875 1.0000
+
+

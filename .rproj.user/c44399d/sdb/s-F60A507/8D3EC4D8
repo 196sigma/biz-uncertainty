@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "###################################################################################################\n## summary-statistics.R\n## AUTHOR:\n## CREATED: 30 September 2016\n## MODIFIED:\n## DESCRIPTION:\n###################################################################################################\n\nsetwd(\"C:/Users/Reginald/Dropbox/Research/Comparability\")\n\nrm(list=ls())\n\nlibrary(sas7bdat)\nlibrary(stargazer)\n\nsource('code/useful-fn.R')\n\n## Read in and prepare data\nX <- read.sas7bdat(\"data/modeling_dd.sas7bdat\")\nnames(X) <- tolower(names(X))\nfactors <- sapply(X, is.factor); X[factors] <- lapply(X[factors], as.character) ## Covnert factors to characters\nX$sic3 = trunc(X$sich/10)\n## remove financials\nX$sic1 = trunc(X$sich/1000); table(X$sic1)\no <- which(X$sic1 ==6); if(length(o)>0) X <- X[-o,]\n\n## Winsorize data\nvariables <- c(\"age\",\n               \"at\",\n               \"baspread\",\n               \"bhr\",\n               \"div\",\n               \"leverage\",\n               \"mve\",\n               \"nanalysts\",\n               \"pe_fwd\",\n               \"price\",\n               \"q\",\n               \"roa\",\n               \"sp500\",\n               \"tang\",\n               \"turnover\")\nfor(v in variables)  X[,v] <- wins(X[,v])\n\nvarnames <- list()\nvarnames[[\"age\"]]=\"AGE\"\nvarnames[[\"numowners\"]]=\"NINSTITUTIONS\"\nvarnames[[\"numowners_active_ratio\"]]=\"NACTIVE\"\nvarnames[[\"ior\"]]=\"PCT-INSTITUTIONS\"\nvarnames[[\"active_ratio\"]]=\"PCT-ACTIVE\"\nvarnames[[\"at\"]]=\"AT\"\nvarnames[[\"baspread\"]]=\"BASPREAD\"\nvarnames[[\"bhr\"]]=\"BHR\"\nvarnames[[\"div\"]]=\"DIV\"\nvarnames[[\"leverage\"]]=\"LEVERAGE\"\nvarnames[[\"mve\"]]=\"MVE\"\nvarnames[[\"nanalysts\"]]=\"ANALYSTS\"\nvarnames[[\"pe_fwd\"]]=\"PE\"\nvarnames[[\"price\"]]=\"PRICE\"\nvarnames[[\"q\"]]=\"Q\"\nvarnames[[\"roa\"]]=\"ROA\"\nvarnames[[\"sp500\"]]=\"SP500\"\nvarnames[[\"tang\"]]=\"TANG\"\nvarnames[[\"turnover\"]]=\"TURNOVER\"\n\n## OLS sample\nsummary.stats <- get.summary.stats(X, variables)\nwrite.csv(summary.stats, file=\"report/tables/summary-stats.csv\")\n\n(X.cor <- cor(X[, c(variables,\"median_cossim_lag1\", \"ior\", \"active_ratio\", \"numowners\", \"numowners_active_ratio\")], use=\"pairwise.complete.obs\", method = \"spearman\"))\ncornames <- row.names(X.cor)\nrow.names(X.cor) <- paste(\"(\", 1:length(cornames), \")\", sep=\"\")\ncolnames(X.cor) <- paste(\"(\", 1:length(cornames), \")\", sep=\"\")\ncorcaption <- \"\\\\tiny \"\nfor(i in 1:length(cornames)) corcaption <- paste(corcaption, row.names(X.cor)[i], \": \", varnames[[cornames[i]]], \"; \", sep=\"\")\n\nupper<-round(X.cor,3)\nupper[upper.tri(X.cor)]<-\"\"\n(upper<- as.data.frame(upper))\nprint.xtable(xtable(upper, caption=corcaption, digits=3) ,floating = TRUE, floating.environment = \"sidewaystable\", type=\"latex\", file=\"report/tables/correlation-matrix.tex\")\n\n## DD Sample\n",
+    "created" : 1507822628938.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4204340492",
+    "id" : "8D3EC4D8",
+    "lastKnownWriteTime" : 1507822692,
+    "last_content_update" : 1507822692789,
+    "path" : "~/Dropbox/Research/0_code/summary-statistics.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

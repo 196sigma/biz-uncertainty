@@ -1,0 +1,910 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.17)  17 NOV 2017 15:04
+entering extended mode
+**C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/Edwards,*R*-*Busine
+ss*Uncertainty.tex
+
+("C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/Edwards, R - Busine
+ss Uncertainty.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count102
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip50
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen122
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen123
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
+\l_MT_above_intertext_sep=\dimen125
+\l_MT_below_intertext_sep=\dimen126
+\l_MT_above_shortintertext_sep=\dimen127
+\l_MT_below_shortintertext_sep=\dimen128
+) (C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+\XKV@depth=\count107
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.s
+ty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box28
+)
+\tc@llx=\dimen131
+\tc@lly=\dimen132
+\tc@urx=\dimen133
+\tc@ury=\dimen134
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen135
+\adjbox@Height=\dimen136
+\adjbox@Depth=\dimen137
+\adjbox@Totalheight=\dimen138
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count109
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count110
+\@vwid@loff=\dimen139
+\@vwid@roff=\dimen140
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip66
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count111
+\lst@gtempboxa=\box30
+\lst@token=\toks23
+\lst@length=\count112
+\lst@currlwidth=\dimen141
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen144
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box31
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\dcolumn.sty"
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen145
+\extrarowheight=\dimen146
+\NC@list=\toks24
+\extratabsurround=\skip67
+\backup@length=\skip68
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\bigstrut.sty"
+\bigstrutjot=\dimen147
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count119
+\float@exts=\toks25
+\float@box=\box32
+\@float@everytoks=\toks26
+\@floatcapt=\box33
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip69
+\enit@outerparindent=\dimen148
+\enit@toks=\toks27
+\enit@inbox=\box34
+\enitdp@description=\count120
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count121
+\rotFPtop=\skip70
+\rotFPbot=\skip71
+\rot@float@box=\box35
+\rot@mess@toks=\toks28
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\rotfloat\rotfloat.sty
+Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
+Package rotfloat Info: float package v1.3 detected on input line 74.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\dvips\rotate.sty"
+\rotdimen=\dimen149
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+)
+\c@ContinuedFloat=\count122
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count123
+\@cmidlb=\count124
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count125
+\@lastruleclass=\count126
+\@thisrulewidth=\dimen169
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\threeparttable\threepar
+ttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box36
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\threeparttablex\threepa
+rttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip72
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip73
+\LTright=\skip74
+\LTpre=\skip75
+\LTpost=\skip76
+\LTchunksize=\count127
+\LTcapwidth=\dimen170
+\LT@head=\box37
+\LT@firsthead=\box38
+\LT@foot=\box39
+\LT@lastfoot=\box40
+\LT@cols=\count128
+\LT@rows=\count129
+\c@LT@tables=\count130
+\c@LT@chunks=\count131
+\LT@p@ftn=\toks29
+)
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\changepage\changepage.s
+ty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count132
+\cp@tempcnt=\count133
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+("C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\Edwards, R - Busine
+ss Uncertainty.aux"
+
+LaTeX Warning: Label `eq:invest' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=620.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=0.0pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 54.
+
+(C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen171
+\scratchbox=\box41
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen172
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks31
+)
+\c@lstlisting=\count140
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (C:\Users\Reginald\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/Reginald/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] 
+[4] [5]
+[6]
+Overfull \hbox (1.98682pt too wide) in paragraph at lines 160--160
+[]\OT1/cmr/bx/n/17.28 Empirical Re-sults of Ag-gre-gate Ac-count-ing Fore-casts
+ 
+ []
+
+[7] [8] [9] [10] [11] [12] [13]
+("C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\Edwards, R - Busine
+ss Uncertainty.bbl"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 1048) in paragraph at lines 21--24
+\OT1/cmr/m/n/12 to Gauge Fi-nan-cial Con-straints.'' \OT1/cmr/m/it/12 Jour-nal 
+of Fi-nan-cial and Quan-ti-ta-tive Anal-y-sis\OT1/cmr/m/n/12 ,
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+[14]) [15]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\appendix-a.tex
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/summary-stats
+2.tex) [16]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/correlation-m
+atrix2.tex
+Overfull \hbox (3.79218pt too wide) in paragraph at lines 24--50
+ [][] 
+ []
+
+) [17]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/punc-xs-ols2.
+tex [18]) [19]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/ols-forecast-
+roa2.tex [20]) [21]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/ols-forecast-
+rd2.tex [22]) [23]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/ols-forecast-
+invest2.tex [24]) [25]
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/bunc-xs-ols-t
+ests2.tex
+Overfull \hbox (28.82153pt too wide) in alignment at lines 4--44
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.82153pt too wide) in alignment at lines 44--64
+ [] [] [] [] [] [] [] 
+ []
+
+[26
+
+]
+Overfull \hbox (28.82153pt too wide) in alignment at lines 64--74
+ [] [] [] [] [] [] [] 
+ []
+
+[27] [28])
+(C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\tables/bunc-xs-ols-f
+orecasts2.tex [29
+
+
+] [30] [31])
+<figures/bunc-by-quarter.png, id=118, 481.8pt x 481.8pt>
+File: figures/bunc-by-quarter.png Graphic file (type png)
+
+<use figures/bunc-by-quarter.png>
+Package pdftex.def Info: figures/bunc-by-quarter.png used on input line 23.
+(pdftex.def)             Requested size: 433.63069pt x 216.80798pt.
+
+<figures/bunc-by-mve.png, id=119, 722.7pt x 722.7pt>
+File: figures/bunc-by-mve.png Graphic file (type png)
+
+<use figures/bunc-by-mve.png>
+Package pdftex.def Info: figures/bunc-by-mve.png used on input line 24.
+(pdftex.def)             Requested size: 433.62334pt x 216.81166pt.
+ [32
+
+ <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/bunc-by-qua
+rter.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/bu
+nc-by-mve.png>]
+<figures/punc-by-at-ts.png, id=124, 481.8pt x 481.8pt>
+File: figures/punc-by-at-ts.png Graphic file (type png)
+
+<use figures/punc-by-at-ts.png>
+Package pdftex.def Info: figures/punc-by-at-ts.png used on input line 32.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-at-xs.png, id=125, 481.8pt x 481.8pt>
+File: figures/punc-by-at-xs.png Graphic file (type png)
+
+<use figures/punc-by-at-xs.png>
+Package pdftex.def Info: figures/punc-by-at-xs.png used on input line 33.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-bm-ts.png, id=126, 481.8pt x 481.8pt>
+File: figures/punc-by-bm-ts.png Graphic file (type png)
+
+<use figures/punc-by-bm-ts.png>
+Package pdftex.def Info: figures/punc-by-bm-ts.png used on input line 40.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-bm-xs.png, id=127, 481.8pt x 481.8pt>
+File: figures/punc-by-bm-xs.png Graphic file (type png)
+
+<use figures/punc-by-bm-xs.png>
+Package pdftex.def Info: figures/punc-by-bm-xs.png used on input line 41.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+ [33 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-by
+-at-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/
+punc-by-at-xs.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/f
+igures/punc-by-bm-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/r
+eport/figures/punc-by-bm-xs.png>]
+<figures/punc-by-tang-ts.png, id=135, 481.8pt x 481.8pt>
+File: figures/punc-by-tang-ts.png Graphic file (type png)
+
+<use figures/punc-by-tang-ts.png>
+Package pdftex.def Info: figures/punc-by-tang-ts.png used on input line 49.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-tang-xs.png, id=136, 481.8pt x 481.8pt>
+File: figures/punc-by-tang-xs.png Graphic file (type png)
+
+<use figures/punc-by-tang-xs.png>
+Package pdftex.def Info: figures/punc-by-tang-xs.png used on input line 50.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-pefwd-ts.png, id=137, 481.8pt x 481.8pt>
+File: figures/punc-by-pefwd-ts.png Graphic file (type png)
+
+<use figures/punc-by-pefwd-ts.png>
+Package pdftex.def Info: figures/punc-by-pefwd-ts.png used on input line 57.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-pefwd-xs.png, id=138, 481.8pt x 481.8pt>
+File: figures/punc-by-pefwd-xs.png Graphic file (type png)
+
+<use figures/punc-by-pefwd-xs.png>
+Package pdftex.def Info: figures/punc-by-pefwd-xs.png used on input line 58.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+ [34 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-by
+-tang-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figure
+s/punc-by-tang-xs.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/repo
+rt/figures/punc-by-pefwd-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncert
+ainty/report/figures/punc-by-pefwd-xs.png>]
+<figures/punc-by-price-ts.png, id=146, 481.8pt x 481.8pt>
+File: figures/punc-by-price-ts.png Graphic file (type png)
+
+<use figures/punc-by-price-ts.png>
+Package pdftex.def Info: figures/punc-by-price-ts.png used on input line 66.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-price-xs.png, id=147, 481.8pt x 481.8pt>
+File: figures/punc-by-price-xs.png Graphic file (type png)
+
+<use figures/punc-by-price-xs.png>
+Package pdftex.def Info: figures/punc-by-price-xs.png used on input line 67.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-bhr-ts.png, id=148, 481.8pt x 481.8pt>
+File: figures/punc-by-bhr-ts.png Graphic file (type png)
+
+<use figures/punc-by-bhr-ts.png>
+Package pdftex.def Info: figures/punc-by-bhr-ts.png used on input line 74.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-bhr-xs.png, id=149, 481.8pt x 481.8pt>
+File: figures/punc-by-bhr-xs.png Graphic file (type png)
+
+<use figures/punc-by-bhr-xs.png>
+Package pdftex.def Info: figures/punc-by-bhr-xs.png used on input line 75.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+ [35 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-by
+-price-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figur
+es/punc-by-price-xs.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/re
+port/figures/punc-by-bhr-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncert
+ainty/report/figures/punc-by-bhr-xs.png>]
+<figures/punc-by-turn-ts.png, id=157, 481.8pt x 481.8pt>
+File: figures/punc-by-turn-ts.png Graphic file (type png)
+
+<use figures/punc-by-turn-ts.png>
+Package pdftex.def Info: figures/punc-by-turn-ts.png used on input line 83.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-turn-xs.png, id=158, 481.8pt x 481.8pt>
+File: figures/punc-by-turn-xs.png Graphic file (type png)
+
+<use figures/punc-by-turn-xs.png>
+Package pdftex.def Info: figures/punc-by-turn-xs.png used on input line 84.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+ [36 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-by
+-turn-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figure
+s/punc-by-turn-xs.png>]
+<figures/punc-by-nanalysts-ts.png, id=164, 481.8pt x 481.8pt>
+File: figures/punc-by-nanalysts-ts.png Graphic file (type png)
+
+<use figures/punc-by-nanalysts-ts.png>
+Package pdftex.def Info: figures/punc-by-nanalysts-ts.png used on input line 92
+.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-nanalysts-xs.png, id=165, 481.8pt x 481.8pt>
+File: figures/punc-by-nanalysts-xs.png Graphic file (type png)
+
+<use figures/punc-by-nanalysts-xs.png>
+Package pdftex.def Info: figures/punc-by-nanalysts-xs.png used on input line 93
+.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-dispersion-ts.png, id=166, 481.8pt x 481.8pt>
+File: figures/punc-by-dispersion-ts.png Graphic file (type png)
+
+<use figures/punc-by-dispersion-ts.png>
+Package pdftex.def Info: figures/punc-by-dispersion-ts.png used on input line 1
+00.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+<figures/punc-by-dispersion-xs.png, id=167, 481.8pt x 481.8pt>
+File: figures/punc-by-dispersion-xs.png Graphic file (type png)
+
+<use figures/punc-by-dispersion-xs.png>
+Package pdftex.def Info: figures/punc-by-dispersion-xs.png used on input line 1
+01.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+ [37 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-by
+-nanalysts-ts.png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/f
+igures/punc-by-nanalysts-xs.png> <C:/Users/Reginald/Dropbox/Research/biz-uncert
+ainty/report/figures/punc-by-dispersion-ts.png> <C:/Users/Reginald/Dropbox/Rese
+arch/biz-uncertainty/report/figures/punc-by-dispersion-xs.png>] <figures/roa-ts
+.png, id=176, 481.8pt x 481.8pt>
+File: figures/roa-ts.png Graphic file (type png)
+
+<use figures/roa-ts.png>
+Package pdftex.def Info: figures/roa-ts.png used on input line 110.
+(pdftex.def)             Requested size: 361.35646pt x 192.23872pt.
+ <figures/rd-ts.png, id=177, 481.8pt x 481.8pt>
+File: figures/rd-ts.png Graphic file (type png)
+
+<use figures/rd-ts.png>
+Package pdftex.def Info: figures/rd-ts.png used on input line 111.
+(pdftex.def)             Requested size: 361.35646pt x 192.23872pt.
+ <figures/invest-ts.png, id=178, 481.8pt x 481.8pt>
+File: figures/invest-ts.png Graphic file (type png)
+
+<use figures/invest-ts.png>
+Package pdftex.def Info: figures/invest-ts.png used on input line 112.
+(pdftex.def)             Requested size: 361.35646pt x 192.23872pt.
+ [38 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/roa-ts.
+png> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/rd-ts.p
+ng> <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/invest-t
+s.png>]
+<figures/roa-acf.png, id=185, 481.8pt x 481.8pt>
+File: figures/roa-acf.png Graphic file (type png)
+ <use figures/roa-acf.png>
+Package pdftex.def Info: figures/roa-acf.png used on input line 121.
+(pdftex.def)             Requested size: 361.35646pt x 433.63069pt.
+
+[39 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/roa-acf.
+png>] <figures/invest-acf.png, id=190, 481.8pt x 481.8pt>
+File: figures/invest-acf.png Graphic file (type png)
+
+<use figures/invest-acf.png>
+Package pdftex.def Info: figures/invest-acf.png used on input line 130.
+(pdftex.def)             Requested size: 361.35646pt x 433.63069pt.
+ [40 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/invest-
+acf.png>]
+<figures/rdsales-acf.png, id=195, 481.8pt x 481.8pt>
+File: figures/rdsales-acf.png Graphic file (type png)
+
+<use figures/rdsales-acf.png>
+Package pdftex.def Info: figures/rdsales-acf.png used on input line 139.
+(pdftex.def)             Requested size: 361.35646pt x 433.63069pt.
+ [41 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/rdsales
+-acf.png>]
+<figures/nunc-irf-2.png, id=200, 481.8pt x 481.8pt>
+File: figures/nunc-irf-2.png Graphic file (type png)
+
+<use figures/nunc-irf-2.png>
+Package pdftex.def Info: figures/nunc-irf-2.png used on input line 148.
+(pdftex.def)             Requested size: 433.63069pt x 433.63069pt.
+ [42 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/nunc-ir
+f-2.png>]
+<figures/punc-irf-2.png, id=205, 481.8pt x 481.8pt>
+File: figures/punc-irf-2.png Graphic file (type png)
+
+<use figures/punc-irf-2.png>
+Package pdftex.def Info: figures/punc-irf-2.png used on input line 155.
+(pdftex.def)             Requested size: 433.63069pt x 433.63069pt.
+ [43 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/punc-ir
+f-2.png>]
+<figures/ccf.png, id=211, 481.8pt x 481.8pt>
+File: figures/ccf.png Graphic file (type png)
+ <use figures/ccf.png>
+Package pdftex.def Info: figures/ccf.png used on input line 163.
+(pdftex.def)             Requested size: 433.63069pt x 578.21591pt.
+) [44 <C:/Users/Reginald/Dropbox/Research/biz-uncertainty/report/figures/ccf.pn
+g>]
+("C:\Users\Reginald\Dropbox\Research\biz-uncertainty\report\Edwards, R - Busine
+ss Uncertainty.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8039 strings out of 493921
+ 126559 string characters out of 3144866
+ 213988 words of memory out of 3000000
+ 11080 multiletter control sequences out of 15000+200000
+ 14517 words of font info for 56 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 53i,13n,92p,2133b,573s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Edwards, R - Business Uncertainty.pdf" (44 pages, 560613 byt
+es).
+PDF statistics:
+ 273 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,260 @@
+\documentclass[12pt, letterpaper]{article} 
+%\documentclass[12pt, letterpaper, doublespace]{article} 
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} 
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsmath} 
+\usepackage{amsfonts} 
+\usepackage{natbib}
+\usepackage{mathtools} 
+\usepackage{ragged2e} % for text justification
+\usepackage{adjustbox} 
+\usepackage{amssymb}
+%\usepackage[capposition=top]{floatrow} 
+\usepackage{fullpage} 
+\usepackage{listings}
+\usepackage{dcolumn} 
+\usepackage{bigstrut} 
+\usepackage{float} 
+\usepackage{enumitem} 
+\usepackage{url}
+\usepackage[clockwise]{rotating} 
+\usepackage{rotfloat} 
+\usepackage{rotate} 
+\usepackage{rotating}
+\usepackage{pdflscape} 
+\usepackage[labelfont=bf]{caption} 
+\usepackage{graphicx} 
+\usepackage{array}
+\usepackage{booktabs} 
+\usepackage[flushleft]{threeparttable} 
+\usepackage{threeparttablex} 
+% Lets threeparttable work with longtable 
+\usepackage[outdir=graphics/]{epstopdf} 
+\usepackage{graphics}
+\usepackage{longtable} 
+\usepackage[width=.95\textwidth]{caption}
+\usepackage{changepage} 
+% for the adjustwidth environment
+%\let\oldtabular\tabular 
+%\renewcommand{\tabular}{\footnotesize\oldtabular}
+\newcommand\Fontvi{\fontsize{8}{7.2}\selectfont}
+%\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+
+%\setlength{\textwidth}{150mm} 
+
+%\linespread{1} 
+%\linespread{1.7}
+
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\begin{document} 
+
+\title{Business Outlook Uncertainty, Aggregate Earnings, and Investment}
+\author{Reginald Edwards\footnote{Ross School of Business, University of Michigan
+(\texttt{reggie@umich.edu}). Preliminary and Incomplete. Please do not cite or circulate.}} 
+\date{This Draft: November 2017}
+
+\maketitle 
+\begin{abstract} 
+I construct a novel measure of the uncertainty faced uniquely by firms as directly disclosed by managers in the annual report. I validate this measure of business uncertainty and show that it is related to but distinct from prior measures of uncertainty. As many models predict, I find that business uncertainty is associated with lower investment in aggregate and at the firm-level. I also find that aggregate uncertainty is predictive of lower future aggregate earnings. The results are economically meaningful and hold after controlling for a variety of factors known to be predictive of investment and firm performance.
+\end{abstract}
+
+\newpage 
+
+\section{Introduction}\label{introduction} 
+Managers hate uncertainty. While this is a relatively uncontroversial statement, the extent to which uncertainty affects the decisions of firms and how to measure this uncertainty are still open, empirical questions. In this study I develop a novel measure of firm-specific uncertainty that is derived from a key source of firm disclosure--the Management Discussion and Analysis (MD\&A) portion of firms' annual report (``10-K''). I validate this measure by showing it has predictable relationships with other uncertainty proxies, but contains distinct information. I go on to show the aggregate and firm-level outcomes associated with uncertainty. I focus on aggregate earnings, investment in capital, and research and development expenditures. These corporate-sector real activities are important determinants of economic welfare. They are also likely to be directly influenced by the real or perceived level of uncertainty faced by managers.
+
+% Preview of findings
+I analyze the 10-K filings of publicly traded firms and count terms related to risks, challenges, and uncertain future outcomes faced by managers. The list of words is pre-determined and presented in the next section. This method has the benefit of transparency and reproducibility. I construct measures of the absolute number of ``uncertainty terms'' in the 10-K and the proportion of terms, $NUM\_UNC$ and $PCT\_UNC$, respectively. I use the proportion of uncertainty terms to adjust for the fact that annual reports have in general been increasing in length (i.e. number of words) over time. I find that my uncertainty measures are empirically related to, but distinct from common fundamental accounting and financial variables. 
+
+Since establishing a causal relationship between fundamentals, uncertainty, and any firm outcomes is likely to prove challenging, I focus instead on the task of forecasting key aggregate outcomes. I perform in-sample tests on one-period-ahead investment, research and development, and performance and out-of-sample validation of these forecasts. I find that my measures of uncertainty provides reliable improvement (based on root-mean-squared error and mean absolute error) on forecasts based on lagged fundamentals and a common proxy of economic uncertainty.
+
+% Overview of how my paper fits into, extends, contradicts prior lit
+In the economics and finance literature, my paper is most closely related to the stream of research, beginning with \cite{bakeretal2016} that quantify how policy uncertainty affects the corproate sector. Recent findings show how different forms of uncertainty can influence real outcomes. For example, political uncertainty can influence mergers and acquisitions (\cite{bonaimeetal2017}) , capital structure choices (\cite{caoetal2013}), and initial public offering activity (\cite{colaketal}). This type of aggregate uncertainty has been given less attention in the accounting literature, but \cite{kimetal2016} do provide evidence that a high level of macroeconomic uncertainty can lead to fewer earnings forecasts from managers.
+
+My construction of a measure of uncertainty relies on the text of the MD\&A, which \cite{browntucker2011} show contain useful information relating to the current economic environment faced by a given firm. I show that collectively this section contains substantial forecasting ability for aggregate corporate activity. Thus, my paper also contributes to the literature in economics, finance, accounting, and accounting that uses textual analysis to extract information about firms not provided in financial statements. For example, recent papers have shown that the text of financial reports contains information about financial constraints (\cite{buehlmaierwhited2017}, \cite{bodnaruketal2015}, and \cite{hobergmaksimovic2015}). 
+%My paper is most similar to ...\\
+%My paper is distinct in that ...
+
+\section{Measuring Business Uncertainty from MD\&A's}
+In the first index I simply count the occurence of the words ``uncertain'' or ``uncertainty.'' In the second construction, I use a broader collection of words. These are any occurence of 
+``uncertain'', ``uncertainty'',
+``challenges'',
+``risks'',
+``decreased'',
+``price pressure'',
+``reduced'',
+``antitrust'',
+``taxes'',
+``regulation'',
+``financing'',
+``disruptions'',
+``terrorism'', or
+``concern''.
+
+How do these term counts vary over time (disaggregated)? I show how the prevalence of each of these terms varies over time (as a fraction of all uncertainty terms).
+
+%How do they vary by industry?
+
+%How do they vary by size (market cap quintile)? Time series of uncertainty by mve quintile. Histograms of uncertainty by mve quintile.
+One potential concern is that this measure of ``business uncertainty'' may proxy for common financial variables such as size. To address this concern, I examine the time-series and cross-sectional distribution of uncertainty by market value of equity (market cap) decile. I plot the trend and distribution  separately for the highest and lowest market cap deciles. As the bottom panel of Figure \ref{bunc-figures} shows, there is a small degree of separation between the two deciles, but not a systematic pattern. It seems that neither large nor small firms are consistently facing lower or higher degrees of uncertainty, as revealed by the text of their annual reports.
+
+% Validation: Cross-Sectional Regressions
+How does my business uncertainty measure vary in the cross-section with common financial variables? For cross-sectional (firm-level) validation, I perform OLS regression on a variety of measures of firm fundamentals and market-based characteristics. I include the number of years the firm appears in Compustat ($AGE$), the ratio of monthly trading volume to number of shares outstanding ($TURNOVER$), the stock return over the preceding year ($RETURN$), the average daily stock price over the preceding year ($PRICE$), the natural logarithm of the book value of assets ($ASSETS$), the natural logarithm of market capitalization ($MVE$), the average bid-ask spread ($BASPREAD$), an indicator variable for whether or not the firm is in the S\&P 500 ($SP500$), the dividend yield ($DIV$), the ratio of the book value of total debt to assets ($LEVERAGE$), Tobin's $q$ ($Q$), calculated as in \cite{chungpruitt1994}, return on assets ($ROA$)--the ratio of net income to the book value of total assets, and the level of asset tangibility ($TANG$), calculated as in \cite{almeidacampello2007}. $NEGEARN$ is a dummy variable equal to one if the ROA is less than zero. I include the number of equity research analysts who provide earnings forecasts for the firm ($NANALYSTS$), as a proxy for the quality of the information environment of the firm. Table \ref{summary-stats} shows summary statistics for these variables. Finally, I include the \emph{forward} price-to-earnings ratio ($PE$)--computed as the current period stock price divided by the one-year-ahead analyst consensus earnings forecast--as a measure of investors' performance expectations for the firm.
+
+I repeat the earlier analysis of the trend and distribution of uncertainty with each of these fundamental factors, split between the top and bottom deciles.  In Figure \ref{bunc-bm}, it is clear that value (high book-to-market) firms consistently report more uncertainty than growth (low book-to-market) firms. Firms with low asset tangibility (Figure \ref{bunc-tang}) have a more volatile pattern of reported uncertainty. As measured by forward PE (Figure \ref{bunc-pefwd}), stock price (Figure \ref{bunc-price}), returns (Figure \ref{bunc-bhr}), and turnover in shares (Figure \ref{bunc-turn}), firms lower in these market-based measures generally face higher and more volatile uncertainty. There are no clear patterns from analyst following or analyst forecast dispersion (Figures \ref{bunc-nanalysts} and \ref{bunc-disp}), the latter of which may also be considered a measure of uncertainty.
+
+% Results. Patterns. Subsample analysis: Pre-crisis, Post-crisis.
+The cross-sectional results of Table \ref{punc-xs-ols} provide a baseline for understanding the relations among uncertainty and fundamentals.
+Uncertainty is negatively associated with Tobin's q, the forward price-to-earnings ratio, leverage, asset tangibility, stock price, and the number of analysts and dispersion in ther forecasts.
+Uncertainty is positively associated with assets, market cap, membership in the S\&P 500, the firm's age, dividend paying, and returns over the previous year.
+Collectively, these variables explain only 7\% of the variation in uncertainty, which implies that it is not strongly related to common financial variables.
+To assess how a potential macroeconomic regime shift my influence these relations, I split my sample into periods before and after the Great Recession (pre- and post-2007, excluding the year 2007). The results indicate marked differences in the relations before and after this period. This suggests more recent data may need to be weighted more heavily when forecasting using these factors.
+
+\section{Sample and Descriptive Statistics} \label{data} 
+My sample period covers the years 1996--2016. I download the 10-K forms for all firms with Central Index Keys (CIKs) in COMPUSTAT from the SEC's EDGAR database. I limit my sample to firms with data in CRSP. I programmatically extract Item 7 and Item 7a from the 10-K.\footnote{I use a script in the Python programming language with a variety of heuristics using regular expressions (RegExes). This method allows me to extract roughly 85\% of MD\&A sections with few false positives.}
+
+% Summary Statistics
+\subsection{Text-Based Business Uncertainty Measure}
+% Preprocessing
+% Summarize ACF and PACF
+To summarise the time-series dynamics of uncertainty, I construct autocorrelation and partial autocorrelation functions of the measure. I consider first the Ljung-Box Q statistic. I compute the Q statistic and its p-value under the null hypothesis of white noise for values ranging from one through twelve. The p-value is consistently near zero, which allows me to reject the null hypothesis of white noise. I next evaluate the trend, seasonality, serial correlation, and empirical relationship with business cycle of uncertainty. The pattern in the top panel of Figure \ref{bunc-figures} shows a clear cyclical component and also an overall trend in business uncertainty.
+
+%Trend
+%Seasonality
+%Serial correlation
+%business cycle relations
+
+\subsection{Investment and Performance}
+I measure firm-level investment ($INVEST_{it}$) as the change in net operating assets ($NOA_{it}$) scaled by average total assets:
+
+\begin{equation} \label{eq:invest} 
+\begin{aligned} 
+INVEST_{it} &= \frac{\Delta NOA_{it}}{0.5\times(Assets_{it} + Assets_{it-1})}.
+\end{aligned}
+\end{equation}
+
+For aggregate investment, $AGG\_INVEST_{t}$, I follow prior studies and take the value-weighted cross-sectional average of  $INVEST_{it}$, using the equity market capitalization of each firm $i$ at time $t$:
+
+\begin{equation} \label{eq:invest} 
+\begin{aligned} 
+AGG\_INVEST_{t} &= \frac{1}{N}\sum_{i}INVEST_{it}
+\end{aligned}
+\end{equation}
+
+I measure earnings ($ROA_{it}$) as net income scaled by average total assets. Research and development expenditure is measured as a fraction of sales, earnings, and equity. I aggregate earnings and R\%D ($AGG\_ROA_{t}$ and $AGG\_RD\_SALES_{t}$, $AGG\_RD\_NI_{t}$, and $AGG\_RD\_BOOK_{t}$) similarly to aggregate investment.
+
+% Summary statistics
+Figure \ref{roa-acf} shows the empirical autocorrelation and partial autocorrelation plots for earnings.
+Figure \ref{invest-acf} shows the empirical autocorrelation and partial autocorrelation plots for investment. Earnings and investment show a high degree of persistence and mean reversion at the quarterly level.
+Figure \ref{rd-acf} shows the empirical autocorrelation and partial autocorrelation plots for R\%D. Research and development expenditure shows a smaller degree of autocorrelation at the quarterly level but persistence at the annual (lags = 4) level.
+%Trend
+%Seasonality
+%Serial correlation
+%business cycle relations
+
+\section{Empirical Results of Aggregate Accounting Forecasts}\label{results}
+
+\subsection{Aggregate Earnings}
+I use a variety of measures of firm fundamentals and market-based characteristics. I include the aggregate value-weighted return on the stock market over the preceding year ($RETURN$), market-to-book, the value-weighted dividend yield ($DIV$), the value-weighted ratio of the book value of total debt to assets ($LEVERAGE$), value-weighted lagged research and development expense, scaled by average total assets ($RD$), lagged return on assets ($ROA$)--the ratio of net income to the book value of total assets, and the value-weighted level of asset tangibility ($TANG$), calculated as in \cite{almeidacampello2007}. Finally, I include the average forward price-to-earnings ratio ($PE$).
+
+Table \ref{ols-forecast-roa} shows the results of the future (one-quarter-ahead) regressions of aggregate earnings ($ROA$). The coefficient estimates of $PCT\_UNC$ is negative and statistically significant at the 10\% level. The coefficient on $NUM\_UNC$ is negative and significant at the 5\% level, indicating that the negative relation between business uncertainty and earnings holds even after controlling for a large variety of other possible drivers of earnigns. The largest single other factor associated with future earnings is past earnings, which is positively related.
+
+\subsection{Aggregate Research and Development Expenditure}
+I use similar controls for the estimation of aggregate earnings. I include the stock return over the preceding year ($RETURN$), market-to-book, the value-weighted dividend yield ($DIV$), the value-weighted ratio of the book value of total debt to assets ($LEVERAGE$), value-weighted lagged research and development expense, scaled by average total assets ($RD$), lagged return on assets ($ROA$)--the ratio of net income to the book value of total assets, and the value-weighted level of asset tangibility ($TANG$), calculated as in \cite{almeidacampello2007}. Finally, I include the average forward price-to-earnings ratio ($PE$). Table \ref{ols-forecast-rd} shows the results of the future (one-quarter-ahead) regressions of aggregate research and development as a fraction of sales ($RD\-S$). 
+
+\subsection{Aggregate Investment}
+To control for previously identified sources of variation in aggregate investment I use variables measuring corporate and macroeconomic conditions. Specifically, I include lagged aggregate investment ($INVEST$), aggregate return on assets ($ROA$)--the ratio of net income to the book value of total assets--and market-to-book ($MTB$) ratio, lagged returns on the stock market ($RETURN$), the 30-day Treasury bill rate, the default spread between Moody's BAA and AAA-rated bonds, and the difference between ten- and one-year Treasury constant maturity rates. Returns are measured as the annual inflation-adjusted return on the CRSP value-weighted index from July of year $t$ to June of year $t+1$. Market-to-book and return on assets are measured as of the end of year $t-1$. The Treasury bill rate is measured as of the beginning of July in year $t$. I report Newey-West heteroscedasticity and autocorrelation-consistent (HAC) standard errors.
+
+Table \ref{ols-forecast-invest} shows the results of the future (one-quarter-ahead) regressions of aggregate investment ($INVEST$). The coefficient estimates of $PCT\_UNC$ and $NUM\_UNC$ are both negative. This indicates that, as would be expected, uncertainty is associated with lower future investment levels.
+
+\subsection{VAR Analysis}
+The previous OLS estimation highlights the interrelated nature of the time series of investment, earnings, and R\&D. Therefore, I estimate a vector autoregression model that includes my business uncertainty measure.
+This tool will allow me to assess the ``predictive causality'' between my measure of business uncertainty and aggregate firm outcomes. This notion of causality, attributed to \cite{granger1969}, explores if $PCT\_UNC$ contains useful information of forecasting $ROA$, $INVEST$, or $RD$, over and above past realizations of the other variables in the system.
+
+Vector autoregression models are parameterized by a variable $p$, which characterizes the number of lagged values of predictor variables in the system. 
+%\begin{equation} \label{eq:var} 
+%\begin{aligned} 
+%ROA_{t} &= \phi_{11}ROA_{t-1} +\phi_{12}ROA_{t-2} + ... + \phi_{1k}ROA_{t-k}\\
+%&+\gamma_{11}RD_{t-1} +\gamma_{12}RD_{t-2} + ... + \gamma_{1k}RD_{t-k}\\
+%&+\delta_{11}INVEST_{t-1} +\delta_{12}INVEST_{t-2} + ... + \delta_{1k}INVEST_{t-k} + \varepsilon_{t} \\
+%RD_{t} &= \phi_{21}ROA_{t-1} +\phi_{22}ROA_{t-2} + ... + \phi_{2k}ROA_{t-k}\\
+%&+\gamma_{21}RD_{t-1} +\gamma_{22}RD_{t-2} + ... + \gamma_{2k}RD_{t-k}\\
+%&+\delta_{21}INVEST_{t-1} +\delta_{22}INVEST_{t-2} + ... + \delta_{2k}INVEST_{t-k} + \varepsilon_{t} \\
+%INVEST_{t} &= \phi_{31}ROA_{t-1} +\phi_{32}ROA_{t-2} + ... + \phi_{3k}ROA_{t-k}\\
+%&+\gamma_{31}RD_{t-1} +\gamma_{32}RD_{t-2} + ... + \gamma_{3k}RD_{t-k}\\
+%&+\delta_{31}INVEST_{t-1} +\delta_{32}INVEST_{t-2} + ... + \delta_{3k}INVEST_{t-k} + \varepsilon_{t} \\
+%\end{aligned}
+%\end{equation}
+A two-period vectorautoregression model--VAR(2)--for uncertainty, earnings, investment, and research and development would take the form:
+
+\begin{equation} \label{eq:var2} 
+\begin{aligned} 
+ROA_{t} &= \lambda_{11}PCT\_UNC_{t-1} +\lambda_{12}PCT\_UNC_{t-2}\\
+&+\phi_{11}ROA_{t-1} +\phi_{12}ROA_{t-2} + \gamma_{11}RD_{t-1}\\
+&+\gamma_{12}RD_{t-2} + \delta_{11}INVEST_{t-1} + \delta_{12}INVEST_{t-2} + \varepsilon_{t} \\
+RD_{t} &= \lambda_{21}PCT\_UNC_{t-1} +\lambda_{22}PCT\_UNC_{t-2}\\
+&+\phi_{21}ROA_{t-1} +\phi_{22}ROA_{t-2} +\gamma_{21}RD_{t-1}\\
+&+\gamma_{22}RD_{t-2}+ \delta_{21}INVEST_{t-1} +\delta_{22}INVEST_{t-2} + \varepsilon_{t} \\
+INVEST_{t} &= \lambda_{31}PCT\_UNC_{t-1} +\lambda_{32}PCT\_UNC_{t-2}\\
+&+\phi_{31}ROA_{t-1} +\phi_{32}ROA_{t-2} +\gamma_{31}RD_{t-1}\\
+&+\gamma_{32}RD_{t-2}+\delta_{31}INVEST_{t-1} +\delta_{32}INVEST_{t-2} + \varepsilon_{t}\\
+PCT\_UNC_{t} &= \lambda_{41}PCT\_UNC_{t-1} +\lambda_{42}PCT\_UNC_{t-2}\\
+&+\phi_{41}ROA_{t-1} +\phi_{42}ROA_{t-2} + \gamma_{41}RD_{t-1}\\
+&+\gamma_{42}RD_{t-2} + \delta_{41}INVEST_{t-1} + \delta_{42}INVEST_{t-2} + \varepsilon_{t} \\
+\end{aligned}
+\end{equation}
+
+The first equation of this four-equation system has $ROA$ on the left hand side and two lags of each of the four variables on the right-hand-side. If $PCT\_UNC$ causes $ROA$ in the sense of Granger causality, then at least one of the coefficients on uncertainty, one of $\lambda_{11}$ or $\lambda_{12}$, will be nonzero. Standard $F$-tests can be used for assessing statistical significance.
+I perform VAR estimation with p=1,2, and 4. In each case I can reject the null hypothesis of no Granger causality from uncertainty to earnings, R\&D, investment. Importantly, I cannot reject the null of no Granger causality from aggregate earnings, R\&D, and investment to either uncertainty measure.
+
+Figure \ref{nunc-irf-2} shows the impulse-response functions for a single standard deviation innovation in $NUM\_UNC$ on aggregate accounting variables ($p=2$). Figure \ref{punc-irf-2} shows the corresponding responses for $PCT\_UNC$.
+
+\section{Pooled Firm-Level Cross-Sectional Forecasts} 
+I perform additional forecasting of earnings, research and development, and investment in a pooled cross-section of firms. I test the performance of models with my business uncertainty measures on contemporaneous and future (one-year-ahead) outcomes.
+
+\begin{equation} \label{eq:xs-contemp} 
+\begin{aligned} 
+Y_{it} &=
+\beta_{0} + \beta_{1}X_{it} + \beta_{2}TANG_{it} + \beta_{3}MVE_{it} + \beta_{4}PRICE_{it} \\ & +
+\beta_{5}TURNOVER_{it} + \beta_{6}AGE_{it} + \beta_{7}BASPREAD_{it} \\ &+ \beta_{8}SP500_{it} +
+\beta_{9}DIV_{it} + \beta_{10}LEVERAGE_{it} + \beta_{11}Q_{it} \\ &+ \beta_{12}RETURN_{it} +
+\beta_{13}ROA_{it} + \beta_{14}ASSETS_{it} \\ &+ \beta_{15}NANALYSTS + Year_{t} + Firm_{i} + \varepsilon_{it}. 
+\end{aligned}
+\end{equation}
+
+\begin{equation} \label{eq:xs-future} 
+\begin{aligned} 
+Y_{it+1} &=
+\beta_{0} + \beta_{1}X_{it} + \beta_{2}TANG_{it} + \beta_{3}MVE_{it} + \beta_{4}PRICE_{it} \\ & +
+\beta_{5}TURNOVER_{it} + \beta_{6}AGE_{it} + \beta_{7}BASPREAD_{it} \\ &+ \beta_{8}SP500_{it} +
+\beta_{9}DIV_{it} + \beta_{10}LEVERAGE_{it} + \beta_{11}Q_{it} \\ &+ \beta_{12}RETURN_{it} +
+\beta_{13}ROA_{it} + \beta_{14}ASSETS_{it} \\ &+ \beta_{15}NANALYSTS + \varepsilon_{it}. 
+\end{aligned}
+\end{equation}
+
+In Equation \ref{eq:xs-contemp} and \ref{eq:xs-future}, $Year$ and $Firm$ capture year and firm fixed-effects, respectively.  These fixed-effects control for unobserved time-specific and firm-specific factors that may influence the relationship between investment or earnings and business uncertainty. I omit these fixed effects in the predictive regressions to avoid potentially overfitting. All other variables are as defined in Section \ref{data}. The other variables control for numerous potentially confounding observable factors identified by prior studies. $Y$ is one of earnings ($ROA$), investment ($INVEST$), or research and development ($RD$). $X$ denotes either business uncertainty measure ($PCT\_UNC$ or $NUM\_UNC$). 
+
+\subsection{Business Uncertainty and the Cross-Section of Earnings}
+Table \ref{xs-tests} columns (1) and (2) show the results of the contemporaneous cross-sectional regressions of $ROA$. The coefficient estimate of $PCT\_UNC$ is positive and significant at the 1\% level, indicating that the  relation between business uncertainty and investment holds even after controlling for a large variety of other possible drivers of performance. This relationship is also economically meaningful: an increase in business uncertainty from the first to the tenth decile is associated, \emph{ceteris paribus}, with an increase in current period earnings by around 6\%. The coefficient estimate of $NUM\_UNC$ is negative and significant at the 10\% level, indicating that the relation between business uncertainty and investment holds even after controlling for a large variety of other possible drivers of performance. This relationship is also economically meaningful: an increase in business uncertainty from the first to the ninth decile is associated, \emph{ceteris paribus}, with a decrease in ROA of around 4\%. Table \ref{xs-forecasts} columns (1) and (2) show the results of the one-year-ahead $ROA$ on contemporaneous factors. The results are broadly consistent with those for the contemporaneous regressions.
+
+\subsection{Business Uncertainty and the Cross-Section of R\&D}
+
+Table \ref{xs-tests} columns (3) and (4) show the results of the contemporaneous cross-sectional regressions of $RD$. The coefficient estimate of $PCT\_UNC$ is negative, but not statistically significant at the, but the coefficient on $NUM\_UNC$ is negative and significant at the 1\% level. This relationship is also economically meaningful: an increase in business uncertainty as measured by $NUM\_UNC$ from the first to the ninth decile is associated, \emph{ceteris paribus}, with a drop in R\&D expenditure as a fraction of sales by around 90\%. Table \ref{xs-forecasts} columns (3) and (4) show the results of the one-year-ahead $RD$. The coefficient estimates of $PCT\_UNC$ and $NUM\_UNC$ are large but not statistically significant.
+
+\subsection{Business Uncertainty and the Cross-Section of Investment}
+Table \ref{xs-tests} columns (5) and (6) show the results of the contemporaneous cross-sectional regressions of $INVEST$. The coefficient estimates of $PCT\_UNC$ and $NUM\_UNC$ are both negative and significant at the 1\% level, indicating that the negative relation between business uncertainty and investment holds even after controlling for a large variety of other possible drivers of investment. This relationship is also economically meaningful: an increase in business uncertainty from the first to the ninth decile is associated, \emph{ceteris paribus}, with a decrease in investment by around 13\% for $PCT\_UNC$ and 21\% for $NUM\_UNC$. However, table \ref{xs-forecasts} columns (5) and (6), which show the results of the one-year-ahead $INVEST$, indicate that these results do not hold for future investment levels.
+
+\section{Conclusion}\label{conclusion} 
+In this paper I have constructed a novel measure of the uncertainty faced uniquely by firms as directly disclosed by managers in the annual report. Through empirical validation of this measure of business uncertainty I show that it is related to but distinct from prior measures of uncertainty. As many models predict, I find that business uncertainty is associated with lower investment in aggregate and at the firm-level. I also find that aggregate uncertainty is predictive of lower future aggregate earnings. The results are economically meaningful and hold after controlling for a variety of factors known to be predictive of investment and firm performance. I utilize a vector autoregression framework to assess the joint dynamics of my variables of interest and find that uncertainty has predictive power for aggregate outcomes, rather than the converse. My aggregate time-series results are more compelling than the cross-sectional tests, which deserves further investigation.
+
+\newpage 
+\bibliographystyle{aea}
+\bibliography{articles} 
+\newpage 
+\input{appendix-a.tex}
+\end{document}

@@ -1,0 +1,48 @@
+\begin{table}[H]																				
+\tiny																				
+  \centering																				
+\captionsetup{width=.95\textwidth}																				
+ \caption{\textbf{Descriptive Statistics}}  																				
+ \label{summary-stats}																				
+\caption*{This table presents descriptive statistics on uncertainty and firm characteristics.  Data span all stocks listed on the NYSE, NASDAQ, or American Stock Exchange (AMEX) and all industries over the years 1994 to 2017.
+
+$AGE$ is the number of years the firm appears in Compustat.																				
+$TURNOVER$ is the ratio of monthly trading volume to number of shares outstanding.																				
+$RETURN$ is the stock return over the preceeding year.																				
+$PRICE$ is the average daily stock price over the preceeding year.																				
+$ASSETS$ is the natural logarithm of the book value of assets.																				
+$MVE$ is the natural logarithm of market capitalization.																				
+$NANALYSTS$ is number of analysts following the firm.																				
+$PE$ is the forward price-to-earnings ratio, computed as the current price divided by the 1-year-ahead consensus analyst forecast for the firm.																				
+$BASPREAD$ is the average bid-ask spread.																				
+$SP500$ an indicator variable for whether or not the firm is in the S\&P 500.																				
+$DIV$ is the dividend yield .																				
+The ratio of the book value of total debt to assets ($LEVERAGE$.)																				
+Tobin's $q$ ($Q$), calculated as in \cite{chungpruitt1994}.																				
+Return on assets  ($ROA$)--the ratio of net income to the book value of total assets.																				
+$LOSS$ is a dummy variable equal to one if $ROA$ is less than zero.																				
+The level of asset tangibility ($TANG$), calculated as in \cite{almeidacampello2007}. All variables are winsorized at the 1\% and 99\% level. Final sample consists of 26,014 firm-year observations.}																				
+    \begin{tabular}{rrrrrrrrrr}																				
+    \toprule																				
+          &       &       & \multicolumn{7}{c}{Percentile} \\																				
+    \cmidrule{4-10}																				
+    \multicolumn{1}{c}{Variable} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Std Dev} & \multicolumn{1}{c}{1st} & \multicolumn{1}{c}{5th} & \multicolumn{1}{c}{25th} & \multicolumn{1}{c}{50th} & \multicolumn{1}{c}{75th} & \multicolumn{1}{c}{95th} & \multicolumn{1}{c}{99th} \\ \hline																				
+\multicolumn{1}{l}	{AGE}	&	20.648	&	15.278	&	2.998	&	4.999	&	9.002	&	16.000	&	26.001	&	55.001	&	63.001	\\
+\multicolumn{1}{l}	{AT}	&	3,577.017	&	9,129.440	&	19.662	&	41.621	&	178.232	&	611.070	&	2,350.677	&	17,716.150	&	62,404.883	\\
+\multicolumn{1}{l}	{BASPREAD}	&	0.001	&	0.006	&	0.000	&	0.000	&	0.000	&	0.000	&	0.000	&	0.000	&	0.044	\\
+\multicolumn{1}{l}	{BHR}	&	0.168	&	0.569	&	-0.761	&	-0.558	&	-0.172	&	0.082	&	0.369	&	1.207	&	2.760	\\
+\multicolumn{1}{l}	{DIV}	&	1.545	&	5.372	&	0.000	&	0.000	&	0.000	&	0.000	&	0.465	&	8.019	&	40.850	\\
+\multicolumn{1}{l}	{LEVERAGE}	&	0.191	&	0.184	&	0.000	&	0.000	&	0.006	&	0.157	&	0.315	&	0.548	&	0.702	\\
+\multicolumn{1}{l}	{MVE}	&	3,920.795	&	10,981.519	&	19.168	&	47.306	&	218.759	&	677.059	&	2,399.036	&	17,677.582	&	82,215.576	\\
+\multicolumn{1}{l}	{ANALYSTS}	&	6.692	&	6.992	&	0.000	&	0.000	&	1.000	&	5.000	&	10.000	&	22.000	&	30.000	\\
+\multicolumn{1}{l}	{PE}	&	20.887	&	48.692	&	-163.572	&	-28.555	&	8.321	&	16.716	&	27.775	&	85.831	&	288.892	\\
+\multicolumn{1}{l}	{PRICE}	&	25.695	&	22.691	&	2.126	&	3.451	&	9.016	&	19.088	&	35.088	&	70.449	&	121.255	\\
+\multicolumn{1}{l}	{Q}	&	1.767	&	1.379	&	0.402	&	0.587	&	0.903	&	1.310	&	2.090	&	4.685	&	8.116	\\
+\multicolumn{1}{l}	{ROA}	&	0.012	&	0.147	&	-0.643	&	-0.297	&	-0.009	&	0.040	&	0.082	&	0.175	&	0.307	\\
+\multicolumn{1}{l}	{SP500}	&	0.147	&	0.354	&	0.000	&	0.000	&	0.000	&	0.000	&	0.000	&	1.000	&	1.000	\\
+\multicolumn{1}{l}	{TANG}	&	0.499	&	0.186	&	0.000	&	0.189	&	0.387	&	0.501	&	0.601	&	0.837	&	0.948	\\
+\multicolumn{1}{l}	{TURNOVER}	&	9.372	&	8.013	&	0.526	&	1.299	&	4.038	&	7.150	&	12.055	&	25.348	&	45.681	\\
+\multicolumn{1}{l}	{LOSS}	&	0.276	&	0.447	&	0.000	&	0.000	&	0.000	&	0.000	&	1.000	&	1.000	&	1.000	\\
+    \bottomrule																				
+    \end{tabular}																				
+\end{table}

@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<label=code-chunk-1, echo=F>>=
+#source('C:/Users/Reginald/Dropbox/Research/biz-uncertainty/code/ols-forecast-roa.R', echo=T)
+load('data/uncertainty-metrics-ts.RData')
+@
+The coefficient estimate of $PCT\_UNC$ is \Sexpr{a} and significant at the $XXX$\% level, indicating that the $XXX$ relation between business uncertainty and investment holds even after controlling for a large variety of other possible drivers of investment. This relationship is also economically meaningful: an increase in business uncertainty from the first to the ninth decile is associated, \emph{ceteris paribus}, with a $XXX$ in investment by around $XXX$\%.
+
+The coefficient estimate of $NUM\_UNC$ is $XXX$ and significant at the $XXX$\% level, indicating that the $XXX$ relation between business uncertainty and investment holds even after controlling for a large variety of other possible drivers of investment. This relationship is also economically meaningful: an increase in business uncertainty from the first to the ninth decile is associated, \emph{ceteris paribus}, with a $XXX$ in investment by around $XXX$\%.
+
+
+\end{document}

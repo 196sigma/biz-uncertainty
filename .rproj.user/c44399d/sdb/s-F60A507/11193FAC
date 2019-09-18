@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "## Merge uncertainty data and accounting aggregates\n",
+    "created" : 1507821006142.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "352958856",
+    "id" : "11193FAC",
+    "lastKnownWriteTime" : 1507815945,
+    "last_content_update" : 1507815945,
+    "path" : "~/Dropbox/Research/biz-uncertainty/code/merge-data.R",
+    "project_path" : "code/merge-data.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

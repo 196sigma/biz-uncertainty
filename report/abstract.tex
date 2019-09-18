@@ -1,0 +1,66 @@
+\documentclass[12pt, letterpaper]{article} 
+%\documentclass[12pt, letterpaper, doublespace]{article} 
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} 
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsmath} 
+\usepackage{amsfonts} 
+\usepackage{natbib}
+\usepackage{mathtools} 
+\usepackage{ragged2e} % for text justification
+\usepackage{adjustbox} 
+\usepackage{amssymb}
+%\usepackage[capposition=top]{floatrow} 
+\usepackage{fullpage} 
+\usepackage{listings}
+\usepackage{dcolumn} 
+\usepackage{bigstrut} 
+\usepackage{float} 
+\usepackage{enumitem} 
+\usepackage{url}
+\usepackage[clockwise]{rotating} 
+\usepackage{rotfloat} 
+\usepackage{rotate} 
+\usepackage{rotating}
+\usepackage{pdflscape} 
+\usepackage[labelfont=bf]{caption} 
+\usepackage{graphicx} 
+\usepackage{array}
+\usepackage{booktabs} 
+\usepackage[flushleft]{threeparttable} 
+\usepackage{threeparttablex} 
+% Lets threeparttable work with longtable 
+\usepackage[outdir=graphics/]{epstopdf} 
+\usepackage{graphics}
+\usepackage{longtable} 
+\usepackage[width=.95\textwidth]{caption}
+\usepackage{changepage} 
+% for the adjustwidth environment
+%\let\oldtabular\tabular 
+%\renewcommand{\tabular}{\footnotesize\oldtabular}
+\newcommand\Fontvi{\fontsize{8}{7.2}\selectfont}
+%\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
+
+%\setlength{\textwidth}{150mm} 
+
+%\linespread{1} 
+%\linespread{1.7}
+
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\begin{document} 
+
+\title{Who Demands Comparability?\\Active vs. Passive Institutional Investors}
+\author{Reginald Edwards\footnote{Ross School of Business, University of Michigan
+(\texttt{reggie@umich.edu}). I would like to thank my dissertation committee chairs Raffi Indjejikian and Venky Nagar and members Allison Earl and Robert F. Dittmar. I am also grateful for the advice and comments of Ryan Ball, Greg Miller, Cathy Shakespeare, Christopher Williams, and Reuven Lehavy, as well as workshop participants at the University of Michigan. I appreciate the financial support of the Ross Doctoral Fellowship, the Paton Accounting Fellowship, and the University of Michigan Rackham Merit Fellowship.}} 
+\date{December 2016}
+
+\maketitle 
+\begin{abstract} 
+I examine the differential effects of accounting comparability on investment by active and passive institutional investors. I develop a novel measure of accounting comparability based on the textual disclosure of firms' accounting policies from their annual reports and find that, among firms with less comparable accounting, investment by active institutions is higher than that of passive institutional investors. This suggests that these investors have a real or perceived information advantage among firms with less comparable accounting. To establish causality, I use a difference-in-differences approach that relies on the plausibly exogenous introduction of an accounting rule change likely to decrease comparability, and its subsequent reversal. My paper offers novel evidence on a under-explored relation between accounting comparability and investor preferences.
+\end{abstract}
+
+\end{document}
